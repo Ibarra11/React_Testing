@@ -3,7 +3,7 @@
 // it is going to invoke the reducer and the default case is going to be selected and you dont want to return 
 // undefined
 
-const SAVE_COMMENT = 'SAVE_COMMENT';
+export const SAVE_COMMENT = 'SAVE_COMMENT';
 
 export default function (state = [], action) {
     switch (action.type) {
